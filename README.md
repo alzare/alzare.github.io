@@ -1,2 +1,2 @@
 # alzare.github.io
-Alzare zapatos - catálogo básico
+Alzare zapatos - web
