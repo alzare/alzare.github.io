@@ -1,7 +1,7 @@
 ---
 title: Hispanitas
 image: 2020-05-03-hispanitas1.jpeg
-date: "2020-05-03"
+date: "2020-05-02"
 draft: false
 showImage: true
 ---
