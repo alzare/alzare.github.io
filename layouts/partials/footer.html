@@ -1,0 +1,51 @@
+
+<!-- Footer Section -->
+
+<footer>
+    <div class="container">
+         <div class="row">
+
+              <div class="col-md-3 col-sm-3" style="font-size: 32px">
+                   <a href="{{ "/" | relLangURL }}" class="navbar-brand" style="font-size: 48px"><i class="fas fa-shoe-prints"></i></a>
+              </div>
+
+              <div class="col-md-4 col-sm-4">
+                   <p>Alhama de Murcia</p>
+              </div>
+
+              <div class="col-md-offset-1 col-md-4 col-sm-offset-1 col-sm-3">
+                   <p><a href="mailto:{{ .Site.Data.contact.email }}">{{ .Site.Data.contact.email }}</a></p>
+                   <p>Avd.Juan Carlos I, nº 13 - Alhama De Murcia</p>
+                   <p>{{ .Site.Data.contact.phone }}</p>
+              </div>
+
+              <div class="clearfix col-md-12 col-sm-12">
+                   <hr>
+              </div>
+
+              <div class="col-md-6 col-sm-6">
+                   <div class="footer-copyright">
+                        <p>All Rights Reserved.</p>
+                   </div>
+              </div>
+
+              <div class="col-md-6 col-sm-6">
+                   <ul class="social-icon">
+                        <li><a href="{{ .Site.Data.contact.facebook }}" class="fab fa-facebook"></a></li>
+                        <li><a href="{{ .Site.Data.contact.instagram }}" class="fab fa-instagram"></a></li>
+                   </ul>
+              </div>
+              
+         </div>
+    </div>
+</footer>
+
+
+<!-- SCRIPTS -->
+
+<script src="/js/jquery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/custom.js"></script>
+
+</body>
+</html>
